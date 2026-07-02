@@ -1,11 +1,13 @@
 package Lib;
 import java.awt.*;
 import javax.swing.*;
+
+
+
 import java.awt.event.*;
 
-public class Form1 extends JFrame {
+public class Form1 extends JFrame  {
     public Form1(){{
-
         }
         this.getContentPane().add(new RollingBall());
         this.setSize(300,300);
@@ -14,10 +16,5 @@ public class Form1 extends JFrame {
         this.setVisible(true);
     }
 
+
 }
-
-
-
-
-
-
